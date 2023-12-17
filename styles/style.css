@@ -63,10 +63,12 @@ hr.thin  {
     display: flex;
     gap: 1em;
     margin-left: auto;
+    text-decoration: none;   
   }
   
   a.header nav:link {
-     text-decoration: none; 
+     text-decoration: none;
+   
     } 
 
 /* font-family: 'Cormorant Garamond', serif;
@@ -173,6 +175,7 @@ flex-direction: column;
 
 .lcolumn  {
   width: 20%;
+  max-width: 150px;
   text-align:center;
   padding-top: 30px;
  
@@ -190,17 +193,11 @@ vertical-align:top;
 
 
 
-a {
  
-  color: inherit;
-}
-a:hover{
-  text-decoration: wavy;
-}
 
 .img {
   height: auto;
-  width: 200px;
+  width: 150px;
  
  }
 
@@ -259,7 +256,7 @@ a:hover{
 
 .key
 {
-  width: 200px;
+  width: 150px;
   height: 25px;
  
 }
@@ -335,9 +332,17 @@ a:hover{
   border-radius: 10px;
   /* Add more styles as needed */
 }
+
+audio::-webkit-media-controls-panel {
+  background-color:#fff;
+ 
+ 
+  /* Add more styles as needed */
+}
+
 audio::-webkit-media-controls-timeline {
   background-color: black;
-  border-radius: 25px;
+
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -371,4 +376,13 @@ img {
       height:auto;
       position:fixed;
       z-index: 20;
+    }
+
+
+    a {
+ 
+      color: inherit;
+    }
+    a:hover{
+      text-decoration: wavy;
     }
