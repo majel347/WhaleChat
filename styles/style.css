@@ -250,8 +250,6 @@ vertical-align:top;
 }
  
 
-
-
 /* BACKROUND COLORS */
 
 .key
@@ -364,7 +362,7 @@ img {
 
    }
   .imgZoom { 
-    transform: scale(3.75); 
+    transform: scale(4); 
     z-index:10;
     }
   
